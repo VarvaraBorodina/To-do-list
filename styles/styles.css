@@ -1,0 +1,87 @@
+.card {
+  width: 40%;
+  margin-left: 30%;
+  margin-top: 100px;
+  border-radius: 20px;
+  background-color: #b5daf7;
+  box-shadow: 0 0 10px 3px #d0d0d0;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.content {
+  text-align: justify;
+  color: black;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.heading {
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.title {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.container {
+  display: flex;
+  padding-left: 7px;
+}
+
+.container input {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+input[type="text"] {
+  width: 80%;
+  margin-bottom: 20px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 25px;
+  outline: none;
+  transition: width 0.3s ease-in-out;
+}
+
+input[type="text"]:focus {
+  width: 100%;
+}
